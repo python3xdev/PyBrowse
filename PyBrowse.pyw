@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+from datetime import datetime
 # from win10toast import ToastNotifier
 
 from PyQt5.QtCore import *
@@ -42,7 +43,7 @@ class AboutDialog(QDialog):
 		version.setFont(font)
 		layout.addWidget(version)
 
-		layout.addWidget(QLabel("All Rights Reserved 2021 PyBrowse™"))
+		layout.addWidget(QLabel(f"All Rights Reserved 2021-{datetime.now().year} PyBrowse™"))
 		for i in range(0, layout.count()):
 			layout.itemAt(i).setAlignment(Qt.AlignHCenter)
 
