@@ -7,7 +7,9 @@
 
 #### https://pybrowse.com/
 
-Public releases will start from PyBrowse version **4.1**, versions **1.0**, **2.0**, **2.1**, **3.0**, **4.0** will not be publicly available.
+Public source releases will start from PyBrowse version **4.1**, versions **1.0**, **2.0**, **2.1**, **3.0**, **4.0** will not be publicly available.
+
+#### Realease **builds** will start from version **4.1.1**
 
 **Screenshots**
 
